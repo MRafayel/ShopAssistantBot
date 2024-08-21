@@ -23,4 +23,3 @@ def categories():
 
 if __name__ == '__main__':
     pass
-    # categories()

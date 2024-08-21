@@ -45,4 +45,3 @@ def save_categories():
 
 if __name__ == '__main__':
     pass
-    # save_categories()

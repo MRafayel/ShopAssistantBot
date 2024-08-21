@@ -130,7 +130,7 @@ async def get_percent_range(category_id):
     session = Session()
     if not session.query(Product).filter(Product.cat_id == category_id).first():
         products(parent_category=category_id, sub_category=None)
-    print(f"CAT ID {category_id}")
+
     percents = session.query(Product.discount_percent).filter(Product.cat_id == category_id).order_by(asc(Product.discount_percent)).all()
 
     session.close()

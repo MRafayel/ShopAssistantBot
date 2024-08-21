@@ -61,4 +61,3 @@ def products(parent_category, sub_category):
 
 if __name__ == '__main__':
     pass
-    # products(parent_category=22, sub_category=190)
