@@ -29,7 +29,7 @@ Before you begin, ensure you have the following installed:
 2. Create a configuration file named config.py in the root directory and set the following variables:
   ```bash
     TOKEN = 'YOUR_TELEGRAM_BOT_TOKEN'
-    DATABASE_PATH = 'sqlite:///your_database_name.db'
+    DATABASE_PATH = 'sqlite:///your_database_name.sqlite'
     CATEGORY_URL = 'YOUR_CATEGORY_API_URL'
     SUBCATEGORY_URL = 'YOUR_SUBCATEGORY_API_URL'
     PRODUCTS_URL = 'YOUR_PRODUCTS_API_URL'
